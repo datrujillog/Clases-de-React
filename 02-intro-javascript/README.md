@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-diego alonso trujillo [Website](https://devtrujillo.herokuapp.com).
+
 
 ## Available Scripts
 
