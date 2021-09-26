@@ -1,1 +1,3 @@
-console.log('Diego Trujillo')
+// @ _ Desestructruación de Objetos Carpeta 3 Video 9
+
+// --------------------------------------------------------------------------
