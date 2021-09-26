@@ -1,4 +1,5 @@
 # Clases de React
  Aprendiendo react
 
- Diego alonso Trujillo [Website](https://devtrujillo.herokuapp.com).
+ @autor ->  Diego alonso Trujillo [Website](https://devtrujillo.herokuapp.com).
+ 
