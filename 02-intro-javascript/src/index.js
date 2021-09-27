@@ -1,6 +1,6 @@
+// const activo = true;
 
-
-const activo = true;
+// import { getHeroeById } from "./bases/08-imp-exp";
 
 // let mensaje = '';
 
@@ -9,11 +9,18 @@ const activo = true;
 // } else {
 //     mensaje = 'Inactivo';
 // }
-// const mensaje = ( activo ) ? 'Activo' : 'Inactivo'; 
+// const mensaje = ( activo ) ? 'Activo' : 'Inactivo';  
 // const mensaje = ( activo ) ? 'Activo' : null; 
-const mensaje = activo && 'Activo';
+// const mensaje = activo && 'Activo';
 
 
-console.log(mensaje);
+// console.log(mensaje);
+
+// ================================  dede aqui ===================
 
 
+// @ -- Asynnc  Await  
+
+
+// ------   Asynnc  Await   CARPETA  3 VIDEO 15
+//  ---------------------------------------------------------------------
