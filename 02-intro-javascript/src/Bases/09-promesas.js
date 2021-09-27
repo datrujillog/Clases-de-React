@@ -1,3 +1,6 @@
+// @ Promesas video 13 Carpeta  3
+
+// ==================================
 import { getHeroeById } from './bases/08-imp-exp'
 
 // const promesa = new Promise( (resolve, reject) => {
@@ -43,3 +46,30 @@ import { getHeroeById } from './bases/08-imp-exp'
 //     .catch( console.warn );
 
 // ================================= ( yo ) ===============================================
+const getHeroeByIdAsync = (id) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+
+            const p1 = getHeroeById(id)
+
+            // console.table(p1)
+
+            if (p1 === undefined) {
+                reject('No se pudo encontrar el heroe')
+            } else {
+
+                resolve(p1)
+            }
+
+        }, 2000);
+    })
+}
+
+getHeroeByIdAsync(1)
+    .then(heroe => console.log('Heroe', heroe))
+    .catch(err => console.warn(err))
+
+
+// -------------  otra  forma ===============
+// .then(console.log)
+// .catch(console.warn) //couando llama a otra funcion recive por para metroa la funcion el el warn()
