@@ -1,112 +1,40 @@
-// @ Funciones  Carpeta 3 Video 8
 
-// --------------------------------------------------------------------------
-
-// function saludar(nombre) {
-//     return `Hola, ${nombre}`
-// }
-// console.log(saludar('Diego'))
-
-
-
-
-// const saludardos = function(nombre) {
-//     return `Hola, ${nombre}`
-// }
-// console.log(saludardos('Diego'))
-
-
-
-
-
-// const saludartres = (nombre) => {
-//     return `Hola, ${nombre}`
-// }
-// console.log(saludartres('Diego'))
-
-
-
-
-// const saludarcuatro = (nombre) => `Hola, ${ nombre }`;
-
-// console.log(saludarcuatro('Vegueta'))
-
-
-// const saludarcinco = (nombre) => `Hola, mundo`;
-
-// console.log(saludarcinco('Vegueta'))
-
-
-// const getUser = () => {
-//     return {
-//         id: '1020428',
-//         usuario: 'yego0210'
-//     }
+// Funciones en JS
+// const saludar = function( nombre ) {
+//     return `Hola, ${ nombre }`;
 // }
 
-// console.log(getUser())
+const saludar2 = ( nombre ) => {
+    return `Hola, ${ nombre }`;
+}
+
+const saludar3 = ( nombre ) => `Hola, ${ nombre }`;
+const saludar4 = () => `Hola Mundo`;
+
+// console.log( saludar('Goku') )
+
+console.log( saludar2('Vegeta') );
+console.log( saludar3('Goku') );
+console.log( saludar4() );
 
 
-
-// const getUser = () => ({
-//     id: '1020428',
-//     usuario: 'yego0210'
-// });
-
-
-// console.log(getUser())
-// -----------------------------------------
+const getUser = () => ({
+        uid: 'ABC123',
+        username: 'El_Papi1502'
+});
 
 
-// ================ Tarea   ==================
+const user = getUser();
+console.log(user);
 
-
-
-//1. Tranformar una funcion a flecha
-// 2. tiene que retornar un objeto inplicito
-//3. pruebas
-
-// function getUsuarioAtivo(nombre) {
-//     return {
-//         id: '1020428',
-//         username: nombre
-
-//     }
-// };
-
-// const usuarioAtivo = getUsuarioAtivo('Diego')
-
-// console.log(usuarioAtivo)
-
-
-// Sosuccion
-
-//1. Tranformar una funcion a flecha
-
-
-// const getUsuarioAtivo = (nombre) => {
-//     return {
-//         id: '1020428',
-//         username: nombre
-
-//     }
-
-// }
-
-// const usuario = getUsuarioAtivo('pedro')
-
-// console.log(usuario)
-
-
-
-// 2. tiene que retornar un objeto implicito
-
-const getUsuarioAtivo = (nombre) => ({
-    id: '1020428',
+// Tarea
+const getUsuarioActivo = ( nombre ) =>({
+    uid: 'ABC567',
     username: nombre
 })
 
-const usuario = getUsuarioAtivo('Sara')
+const usuarioActivo = getUsuarioActivo('Fernando');
+console.log( usuarioActivo );
 
 
-console.log(usuario)
+
