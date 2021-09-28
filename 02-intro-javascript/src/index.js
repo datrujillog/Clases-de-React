@@ -17,38 +17,29 @@
 // console.log(mensaje);
 
 // ================================  dede aqui ===================
+// @ -- TERMARIO
 
 
-// @ -- Asynnc  Await  
-
-
-// ------   Async  Await   CARPETA  3 VIDEO 15
+// ------   TERMARIO CARPETA  3 VIDEO 16
 //  ---------------------------------------------------------------------
 
-// const getImagenPromesa = () => new Promise(resolve => resolve('https://xfghdfgxdfgxdfsg.com'));
-// getImagenPromesa().then(console.log)
+// const activo = true;
 
-const getImagen = async() => {
+//let mensaje = '';
 
-}
+// if (!activo) {
+//     mensaje = 'activo'
 
-console.log(getImagen())
+// } else {
+//     mensaje = 'Inactivo';
+// }
+// console.log(mensaje)
 
 
+// const mensaje = (activo === true) ? 'Activo' : 'Inantivo'
+// const mensaje = (!activo) ? 'Activo' : 'null'
 
-// const apiKey = 'VS6J8dKQJhwl8oPgNpnosYucs9gKJV3t';
+// const mensaje = activo && 'activo'       si solo se cumple uno condicional if solo el if
 
-// const peticion = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
 
-// peticion
-//     .then(resp => resp.json()) 
-//     .then( ({ data }) => {
-//         const { url } = data.images.original;
-
-//         const img  = document.createElement('img')
-//         img.src = url 
-
-//         document.body.append( img )
-
-//     })
-//     .catch( console.warn());
+// console.log(mensaje)
