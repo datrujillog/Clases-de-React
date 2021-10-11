@@ -1,0 +1,1 @@
+// const array = ["Diego", "Sara", "Oscar"]

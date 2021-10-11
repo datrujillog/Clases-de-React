@@ -36,3 +36,6 @@ const promesas = new Promise((resolve, reject) => {
 promesas.then(() => {
     console.log('la promesa')
 })
+
+
+console.table('Diego Alonso Trujillo')
