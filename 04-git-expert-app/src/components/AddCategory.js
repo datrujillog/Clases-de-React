@@ -1,17 +1,24 @@
 import React, { useState } from "react";
+import PropTypes from 'prop-types'
 
-const AddCategory = () => {
 
-    const [inputValue, setInputValue] = useState("Hola mundo");
+//  Recive como parametro la setCartegories del componente GifExpertApp
+const AddCategory = ({  setCategories } ) => {
+
+    const [inputValue, setInputValue] = useState('');
     
     const handleInputChange = (e) => {
-        setInputValue(e.target.value)
+        setInputValue( e.target.value )
     } 
 // Funcion para dar enter en el input
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Submit hecho');
         
+        if (inputValue.trim().length > 2) {
+            setCategories(cats => [...cats, inputValue]);
+            setInputValue('');
+        }
+       
     }
 
   return (
@@ -29,4 +36,20 @@ const AddCategory = () => {
   );
 };
 
+
+
+
+AddCategory.propTypes = {
+
+    setCategories: PropTypes.func.isRequired
+
+}
+
 export { AddCategory };
+
+
+
+
+
+
+
